@@ -5,9 +5,11 @@ import com.sundaydevblog.springrestapitest.repository.MemberRepository;
 import com.sundaydevblog.springrestapitest.service.impl.MemberServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.mockito.junit.MockitoJUnitRunner;
 
 import java.util.Arrays;
 import java.util.List;
